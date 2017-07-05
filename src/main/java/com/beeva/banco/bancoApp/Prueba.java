@@ -7,8 +7,7 @@ import java.util.Scanner;
 import com.beeva.calculadora.App;
 
 
-public class Prueba {
-	
+public class Prueba {	
 	public static void main(String[] args){
 		
 		/*double resultado;
@@ -18,8 +17,7 @@ public class Prueba {
 		
 		Scanner scanw = new Scanner(System.in);
 		System.out.println("Introduce tu nombre: ");
-		String nombre = scanw.next();
-		System.out.println("Introduce tu apellido: ");
+		String nombre = scanw.next();		System.out.println("Introduce tu apellido: ");
 		String apellido = scanw.next();
 		Cliente c = new Cliente(nombre, apellido);
 		System.out.println("Introduce un deposito: ");
@@ -82,7 +80,7 @@ public class Prueba {
 		}*/
 		App cal = new App();
 		int resul = cal.multiplicacion(4, 2);
-		System.out.println("resul: "+resul);
+		System.out.println("r: "+resul);
 		
 	}
 
